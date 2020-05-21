@@ -1,7 +1,7 @@
 {
-  "name": "react-boilerplate",
+  "name": "twimath",
   "version": "1.0.0",
-  "description": "react-boilerplate",
+  "description": "twimath is a service for sharing formulas in Twitter.",
   "main": "./src/index",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
@@ -28,7 +28,13 @@
     "url-loader": "^4.1.0",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3",
+    "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
